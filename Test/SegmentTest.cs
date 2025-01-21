@@ -77,8 +77,8 @@ namespace Test
 
             Assert.NotEmpty(tokenizer.StopWords);
 
-            Assert.True(tokenizer.StopWords.ContainsKey("是"));
-            Assert.True(tokenizer.StopWords.ContainsKey("什么"));
+            Assert.True(tokenizer.StopWords.Contains("是"));
+            Assert.True(tokenizer.StopWords.Contains("什么"));
             
         }
     }

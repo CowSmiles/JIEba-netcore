@@ -1,24 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
    <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>Lucene.JIEba.NetCore</PackageId>
-    <PackageVersion>1.1.4</PackageVersion>
-    <Authors>shshshdy</Authors>
+    <TargetFramework>net9.0</TargetFramework>
+    <PackageId>Phosphor.Lucene.JIEba.NetCore</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>lotus</Authors>
     <Description>JIEba.Lucene.Net is an analyzer tools for lucene.net which is kind to chinese</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/shshshdy/JIEba-netcore</PackageProjectUrl>
     <Copyright>Copyright 2020 (c) AgileLabs. All rights reserved.</Copyright>
-    <PackageTags>Analyzer Segment JIEba.net core2.0</PackageTags>
+    <PackageTags>Lucene.Net 4.8.0-beta00017</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>shshshdy</Company>
     <Version>1.1.4</Version>
-    <PackageReleaseNotes>删除多余依赖</PackageReleaseNotes>
+    <PackageReleaseNotes>Lucene.Net 4.8.0-beta00017</PackageReleaseNotes>
   </PropertyGroup>
     
 
   <ItemGroup>
-      <PackageReference Include="Lucene.Net.Analysis.Common" Version="4.8.0-beta00005" />
+      <PackageReference Include="Lucene.Net.Analysis.Common" Version="4.8.0-beta00017" />
       <PackageReference Include="System.Text.Encoding.CodePages" Version="4.4.0" />
   </ItemGroup>
   <ItemGroup>
